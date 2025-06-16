@@ -17,6 +17,9 @@ services:
 
     env_file: .env-local
 
+    depends_on:
+      - database_default
+
   database_default:
     # Select one of the following db configurations for the database
     image: postgres:15-alpine
