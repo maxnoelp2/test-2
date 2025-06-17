@@ -110,7 +110,7 @@
   --si-gray-800: #33354d;
   --si-gray-900: #0b0f19;
   --si-primary: #3498db;
-  --si-secondary: #2ecc71;
+  --si-secondary: #fb05ff;
   --si-success: #22c55e;
   --si-info: #4c82f7;
   --si-warning: #ffba08;
@@ -118,7 +118,7 @@
   --si-light: #fff;
   --si-dark: #0b0f19;
   --si-primary-rgb: 52, 152, 219;
-  --si-secondary-rgb: 46, 204, 113;
+  --si-secondary-rgb: 251, 5, 255;
   --si-success-rgb: 34, 197, 94;
   --si-info-rgb: 76, 130, 247;
   --si-warning-rgb: 255, 186, 8;
@@ -2984,19 +2984,19 @@ textarea.form-control-lg {
 
 .btn-secondary {
   --si-btn-color: #000;
-  --si-btn-bg: #2ecc71;
-  --si-btn-border-color: #2ecc71;
+  --si-btn-bg: #fb05ff;
+  --si-btn-border-color: #fb05ff;
   --si-btn-hover-color: #000;
-  --si-btn-hover-bg: #4dd486;
-  --si-btn-hover-border-color: #43d17f;
-  --si-btn-focus-shadow-rgb: 39, 173, 96;
+  --si-btn-hover-bg: #fc2bff;
+  --si-btn-hover-border-color: #fb1eff;
+  --si-btn-focus-shadow-rgb: 213, 4, 217;
   --si-btn-active-color: #000;
-  --si-btn-active-bg: #58d68d;
-  --si-btn-active-border-color: #43d17f;
+  --si-btn-active-bg: #fc37ff;
+  --si-btn-active-border-color: #fb1eff;
   --si-btn-active-shadow: unset;
   --si-btn-disabled-color: #000;
-  --si-btn-disabled-bg: #2ecc71;
-  --si-btn-disabled-border-color: #2ecc71;
+  --si-btn-disabled-bg: #fb05ff;
+  --si-btn-disabled-border-color: #fb05ff;
 }
 
 .btn-success {
@@ -3119,19 +3119,19 @@ textarea.form-control-lg {
 }
 
 .btn-outline-secondary {
-  --si-btn-color: #2ecc71;
-  --si-btn-border-color: #2ecc71;
+  --si-btn-color: #fb05ff;
+  --si-btn-border-color: #fb05ff;
   --si-btn-hover-color: #000;
-  --si-btn-hover-bg: #2ecc71;
-  --si-btn-hover-border-color: #2ecc71;
-  --si-btn-focus-shadow-rgb: 46, 204, 113;
+  --si-btn-hover-bg: #fb05ff;
+  --si-btn-hover-border-color: #fb05ff;
+  --si-btn-focus-shadow-rgb: 251, 5, 255;
   --si-btn-active-color: #000;
-  --si-btn-active-bg: #2ecc71;
-  --si-btn-active-border-color: #2ecc71;
+  --si-btn-active-bg: #fb05ff;
+  --si-btn-active-border-color: #fb05ff;
   --si-btn-active-shadow: unset;
-  --si-btn-disabled-color: #2ecc71;
+  --si-btn-disabled-color: #fb05ff;
   --si-btn-disabled-bg: transparent;
-  --si-btn-disabled-border-color: #2ecc71;
+  --si-btn-disabled-border-color: #fb05ff;
   --si-gradient: none;
 }
 
@@ -6288,8 +6288,8 @@ textarea.form-control-lg {
   text-decoration-color: RGBA(var(--si-secondary-rgb), var(--si-link-underline-opacity, 1)) !important;
 }
 .link-secondary:hover, .link-secondary:focus {
-  color: RGBA(88, 214, 141, var(--si-link-opacity, 1)) !important;
-  text-decoration-color: RGBA(88, 214, 141, var(--si-link-underline-opacity, 1)) !important;
+  color: RGBA(252, 55, 255, var(--si-link-opacity, 1)) !important;
+  text-decoration-color: RGBA(252, 55, 255, var(--si-link-underline-opacity, 1)) !important;
 }
 
 .link-success {
@@ -8093,7 +8093,7 @@ textarea.form-control-lg {
 }
 
 .text-secondary {
-  color: #2ecc71 !important;
+  color: #fb05ff !important;
 }
 
 .text-success {
@@ -13500,10 +13500,10 @@ html:not([dir=rtl]) .range-slider-ui.noUi-horizontal .noUi-handle {
 .btn-secondary {
   --si-btn-hover-color: #fff;
   --si-btn-active-color: #fff;
-  --si-btn-hover-bg: #27ad60;
-  --si-btn-active-bg: #27ad60;
-  --si-btn-hover-border-color: #27ad60;
-  --si-btn-active-border-color: #27ad60;
+  --si-btn-hover-bg: #da00de;
+  --si-btn-active-bg: #da00de;
+  --si-btn-hover-border-color: #da00de;
+  --si-btn-active-border-color: #da00de;
   --si-btn-disabled-color: #fff;
 }
 
@@ -15369,7 +15369,7 @@ a.badge {
 }
 
 .alert-secondary {
-  --si-alert-bg: #2fd073;
+  --si-alert-bg: #fb0aff;
 }
 
 .alert-secondary,
@@ -15415,8 +15415,8 @@ a.badge {
   --si-alert-border-color: rgba(52, 152, 219, .25);
 }
 [data-bs-theme=dark] .alert-secondary:not([data-bs-theme=light]) {
-  --si-alert-bg: rgba(46, 204, 113, .05);
-  --si-alert-border-color: rgba(46, 204, 113, .25);
+  --si-alert-bg: rgba(251, 5, 255, .05);
+  --si-alert-border-color: rgba(251, 5, 255, .25);
 }
 [data-bs-theme=dark] .alert-success:not([data-bs-theme=light]) {
   --si-alert-bg: rgba(34, 197, 94, .05);
